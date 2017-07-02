@@ -1,0 +1,148 @@
+@import "reset";
+// 头部信息
+header{
+    .h(172);
+    background: url("../images/header.png") no-repeat left center;
+    background-size: 100% 100%;
+    .padding(45,35,0,35);
+    img{vertical-align: middle;.h(29)};
+    .seller{
+        .h(30);
+        .lh(30);
+        .fs(30);
+        color: #fff;
+        a{
+            .margin(0,25,0,0);
+        }
+    }
+}
+.content{
+    background-color: #EEF1F3;
+}
+
+// 商家分类
+.list{
+    .padding(40,30,50,30);
+    .fs(30);
+    color: #0088EE;
+    background-color: #fff;
+    ul{
+        border: 2px solid #0088EE;
+        .h(78);
+        .lh(78);
+        .border-radius(39);
+        .tac;
+        li{
+            flex: 1;
+        }
+        li:nth-of-type(1){
+            background-color: #0088ee;
+            color: #fff;
+            .border-top-left-radius(39);
+            .border-bottom-left-radius(39);
+        }
+        li:nth-of-type(2){
+            border-right: 2px solid #0088ee;
+            border-left: 2px solid #0088ee;
+        }   
+    }
+}
+// 温馨提示
+.hint{
+    .h(72);
+    .lh(72);
+    .fs(20);
+    color: #716f6e;
+    .padding(0,0,0,18);
+    img{
+        .h(26);
+        vertical-align: middle;
+        .margin(0,15,0,0);
+    }
+}
+// 综合排序
+.composite{
+    .h(85);
+    .lh(85);
+    background-color: #fff;
+    // .padding(0,20,0,20);
+    .tac;
+    .fs(26);
+    color: #716F6E;
+    li{
+        border-right: 1px solid #716F6E;
+        flex: 1;
+        img{
+            .h(20);
+            .w(25);
+            vertical-align: middle;
+        }
+    }
+    li:nth-of-type(1){
+        color: #0088EE;
+    }
+}
+
+// 贷上线
+.line{
+    .margin(18,0,0,0);
+    .padding(28,18,22,15);
+    background-color: #fff;
+    .left img{
+        .h(130);
+    }
+    .right{
+        flex-grow: 1;
+        .margin(0,0,0,17);
+        h2{
+            .fs(30);
+            color: #0088EE;
+            .margin(0,0,14,0);
+        }
+        .star{
+            .h(35);
+            .lh(35);
+            .margin(0,0,23,0);
+            img{
+                .h(35);
+                vertical-align: top;
+            }
+            em{
+                .fs(22);
+                color:#A8A7A6;
+            }
+        }
+        .price{
+            .fs(22);
+            color: #7D7B7B;
+            .margin(0,0,20,0);
+            img{
+                .h(25);
+                vertical-align: middle;
+            }
+        }
+        .new{
+            .fs(22);
+            i{
+                .w(28);
+                .h(28);
+                .lh(32);
+                background-color: #EA3D00;
+                .border-radius(5);
+                color: #fff;
+                .padding(2,2,2,2);
+                .margin(0,3,0,0);
+            }
+            img{
+                .w(25);
+                .h(20);
+            }
+        }
+    }
+}
+// 底部
+footer{
+    .margin(18,0,0,0);
+    .h(128);
+    background-color: #fff;
+}

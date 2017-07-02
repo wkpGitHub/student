@@ -1,0 +1,64 @@
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p,
+section,
+div,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "微软雅黑";
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li,
+ol,
+li {
+  list-style: none;
+}
+.tac {
+  text-align: center;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.fl {
+  float: left;
+  display: inline;
+}
+button {
+  outline: 0;
+  border: none;
+}
+/*布局样式*/
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-sb {
+  justify-content: space-between;
+  /*两端对齐*/
+  -webkit-box-pack: space-between;
+}

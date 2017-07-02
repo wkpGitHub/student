@@ -1,0 +1,64 @@
+
+body,ul,li,h1,h2,h3,h4,p,section,div,header,footer{margin:0;padding: 0; box-sizing:border-box;}
+body{font-family: "微软雅黑";}
+h1,h2,h3,h4{font-weight: normal;}
+i,em{font-style:normal;}
+a{text-decoration: none;}
+ul,li,ol,li{list-style: none;}
+
+@A:75px;
+.w(@v){width: @v/@A*1rem;}
+.h(@v){height:@v/@A*1rem;}
+.fs(@v){font-size: @v/@A*1rem;}
+.pl(@v){padding-left:@v/@A*1rem;}
+.text-indent(@v){text-indent: @v/@A*1rem;}
+.margin(@t,@r,@b,@l){
+   margin: @t/@A*1rem @r/@A*1rem @b/@A*1rem @l/@A*1rem;
+}
+
+.padding(@t,@r,@b,@l){
+    padding: @t/@A*1rem @r/@A*1rem @b/@A*1rem @l/@A*1rem;
+}
+.background-position(@x,@y){
+    background-position-x:@x/@A*1rem;
+    background-position-y:@y/@A*1rem;
+}
+.border-radius(@w){
+    border-radius: @w/@A*1rem;
+    -webkit-border-radius: @w/@A*1rem;
+}
+.border-top-left-radius(@w){
+    border-top-left-radius: @w/@A*1rem;
+    -webkit-border-top-left-radius: @w/@A*1rem;
+}
+.border-bottom-left-radius(@w){
+    border-bottom-left-radius: @w/@A*1rem;
+    -webkit-border-bottom-left-radius: @w/@A*1rem;
+}
+.border-top-right-radius(@w){
+    border-top-right-radius: @w/@A*1rem;
+    -webkit-border-top-right-radius: @w/@A*1rem;
+}
+.border-bottom-right-radius(@w){
+    border-bottom-right-radius: @w/@A*1rem;
+    -webkit-border-bottom-right-radius: @w/@A*1rem;
+}
+.tac{text-align:center;}
+.background-size(@w,@h){background-size:@w/@A*1rem @w/@A*1rem}
+.lh(@v){line-height: @v/@A*1rem;}
+.fr{float: right;display: inline}
+.fl{float: left;display: inline}
+button{outline: 0; border: none;}
+.top(@v){top:@v/@A*1rem;}
+.bottom(@v){bottom:@v/@A*1rem;}
+
+/*布局样式*/
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.flex-sb{
+   justify-content: space-between; /*两端对齐*/
+   -webkit-box-pack:space-between;
+}

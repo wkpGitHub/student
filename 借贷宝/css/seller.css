@@ -1,0 +1,240 @@
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p,
+section,
+div,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "微软雅黑";
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li,
+ol,
+li {
+  list-style: none;
+}
+.tac {
+  text-align: center;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.fl {
+  float: left;
+  display: inline;
+}
+button {
+  outline: 0;
+  border: none;
+}
+/*布局样式*/
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-sb {
+  justify-content: space-between;
+  /*两端对齐*/
+  -webkit-box-pack: space-between;
+}
+header {
+  height: 4.66666667rem;
+  background: url("../images/shenqing.png") no-repeat left center;
+  background-size: 100% 100%;
+  padding: 0.6rem 0.46666667rem 0rem 0.46666667rem;
+}
+header img {
+  vertical-align: top;
+}
+header .seller {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  color: #fff;
+}
+header .seller img {
+  display: inline-block;
+  height: 0.38666667rem;
+}
+header .seller a {
+  margin: 0rem 0.33333333rem 0rem 0rem;
+}
+header .center {
+  margin: 0.58666667rem 0rem 0rem 0rem;
+  text-align: center;
+}
+header .center img {
+  height: 1.78666667rem;
+}
+.content {
+  background-color: #EEF1F3;
+  font-size: 0.37333333rem;
+}
+.apply {
+  height: 1.41333333rem;
+  line-height: 1.41333333rem;
+  padding: 0rem 0rem 0rem 0.25333333rem;
+  color: #008DEA;
+  background-color: #fff;
+}
+.apply img {
+  vertical-align: middle;
+}
+.apply .card {
+  width: 0.53333333rem;
+  height: 0.49333333rem;
+}
+.apply span,
+.apply img:nth-of-type(2) {
+  margin: 0rem 0rem 0rem 0.26666667rem;
+}
+.apply img:nth-of-type(2) {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.name,
+.qq,
+.weixin,
+.phone {
+  height: 1.09333333rem;
+  line-height: 1.09333333rem;
+  margin: 0.24rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0.21333333rem;
+  background-color: #fff;
+}
+.name i,
+.qq i,
+.weixin i,
+.phone i {
+  width: 0.30666667rem;
+  height: 0.30666667rem;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0rem 0.30666667rem 0rem 0rem;
+}
+.name input,
+.qq input,
+.weixin input,
+.phone input {
+  margin: 0rem 0rem 0rem 0.2rem;
+  border: 0 none;
+  outline: 0 none;
+  font-size: 0.37333333rem;
+}
+.name i {
+  background-color: #8DAF6B;
+}
+.qq i {
+  background-color: #966097;
+}
+.weixin i {
+  background-color: #F5DA5F;
+}
+.phone i {
+  background-color: #5AA1CC;
+}
+.firm {
+  margin: 0.98666667rem 0rem 0rem 0rem;
+  height: 1.26666667rem;
+  line-height: 1.26666667rem;
+  padding: 0rem 0rem 0rem 0.21333333rem;
+  color: #008DEA;
+  background-color: #fff;
+}
+.firm img {
+  vertical-align: middle;
+}
+.firm .card {
+  width: 0.82666667rem;
+  height: 0.57333333rem;
+}
+.firm span,
+.firm img:nth-of-type(2) {
+  margin: 0rem 0rem 0rem 0.26666667rem;
+}
+.firm img:nth-of-type(2) {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.firm-name,
+.person {
+  height: 1.09333333rem;
+  line-height: 1.09333333rem;
+  margin: 0.24rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0.2rem;
+  font-size: 0.33333333rem;
+  background-color: #fff;
+}
+.firm-name i,
+.person i {
+  width: 0.30666667rem;
+  height: 0.30666667rem;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0rem 0.30666667rem 0rem 0rem;
+}
+.firm-name input,
+.person input {
+  border: 0 none;
+  outline: 0 none;
+  font-size: 0.36rem;
+}
+.firm-name i {
+  background-color: #8DAF6B;
+}
+.person i {
+  background-color: #966097;
+}
+.person input[name="person"] {
+  width: 4rem;
+}
+footer {
+  padding: 0.29333333rem 0.21333333rem 1.46666667rem 0.21333333rem;
+}
+footer p {
+  font-size: 0.29333333rem;
+  color: #A8A8A8;
+  margin: 0rem 0rem 2.16rem 0rem;
+}
+footer p img {
+  vertical-align: bottom;
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  margin: 0rem 0.16rem 0rem 0rem;
+}
+footer button {
+  width: 100%;
+  height: 0.98666667rem;
+  line-height: 0.98666667rem;
+  background-color: #0089EE;
+  border-radius: 0.49333333rem;
+  -webkit-border-radius: 0.49333333rem;
+  font-size: 0.37333333rem;
+  color: #fff;
+  text-align: center;
+}
